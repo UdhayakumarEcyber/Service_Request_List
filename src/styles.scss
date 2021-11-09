@@ -1,0 +1,169 @@
+
+.service_list_widget{
+    .rht-title-section{
+        float: right;
+        display: flex;
+        .uxp-form-select { 
+            &:first-child{
+                margin-right: 1em;
+            }  
+        }
+
+        .uxp-toggle-filter{
+            .uxp-toggle-option.selected {
+                // box-shadow: 0 2px 6px 2px rgb(0 0 0 / 12%);
+                background-color: #f13f6f;
+                color: #ffffff;
+            }
+        } 
+    }
+
+    .service-request-widget{
+        display: inline-block;
+        width: 100%; 
+
+        .data-list-item{
+            display: inline-block;
+            width: 100%; 
+
+        
+
+                &:first-child{
+                    
+                    .icon{
+                        background-color: #f13f6f;
+                    }
+
+                    .user{ 
+                        color: #f13f6f;
+                    }
+                
+            }
+
+            .list-item{
+                width: 100%;
+                padding: 5px 15px;
+            }
+
+            &:nth-child(odd){  
+                .list-item{
+                    background-color: #f7f7f7;
+                }
+            }
+        }
+
+        .service-request-header{
+            display: inline-block;
+            width: 100%;
+        }
+
+        .service-request-body{
+            display: inline-block;
+            width: 100%;
+            overflow: auto;
+            height: 69%;
+
+            .icon{ 
+                height: 40px;
+                text-align: center;
+                display: inline-block;
+                width: 40px;
+                background: #c5c5c5;
+                border-radius: 50%;
+                margin-top: 1em;
+                img{
+                        /* max-width: 80%; */
+                        /* max-height: 80%; */ 
+                        width: 50%;
+                        height: 50%;
+                        margin-top: 11px;
+                }
+            }
+
+            .work-request{
+                display: inline-block;
+                text-align: left;
+                width: 60%;
+                .user{
+                    display: inline-block;
+                    width: 100%;
+                    margin: 5px 0 10px 0px;  
+                    
+                }
+                .req{
+                    display: inline-block;
+                    width: 100%;
+                    p{
+                        display: inline-block;
+                    }
+                    .section{
+                        display: inline-block;
+                    }
+                    .stip{
+                        
+                            padding: 6px 11px;
+                            background-color: #3a3a3a; 
+                            color: #fff;
+                            border-radius: 15px;
+                            display: inline-block;
+                            margin-left: 1em;
+                        &:empty {
+                                display: none;
+                            } 
+                    }
+                } 
+            }
+
+            .work-status{
+                display: inline-block;
+                width: 20%;
+
+                .status{
+                    display: inline-block;
+                    width: auto;
+                    margin: 5px 0 10px 0px;
+                    padding: 7px 15px;
+                    border-radius: 10px;
+                    text-transform: capitalize;
+
+                    &.pending{
+                        background-color: #fff1b3;
+                    }
+
+                    &.approved{
+                        background-color: #00c1aa;
+                        color: #fff;
+                    }
+
+                    &.overdue{
+                        background-color: #f13f6f;
+                        color: #fff;
+                    }
+
+                    &.assigned{
+                        background-color: #fff1b3;
+                    }
+                }
+                .date{
+                    display: inline-block;
+                    width: 100%;
+                    padding: 0px 10px;
+                } 
+            }
+        }
+    }
+
+    .data-list-container .data-list-footer{
+           height: 50px;
+            bottom: 25px;
+
+        .scroll-btn{
+            min-height: 100%;
+
+            .icon{
+                margin-top: 0em;
+            }
+        }
+    } 
+ 
+}

@@ -1,0 +1,22 @@
+{
+    "id": "88498b4c-2258-4d1f-9aab-26ce7d8948f1",
+   "author": "eutech",
+    "widgets": [
+        {
+            "id": "Service_Request_List",
+            "name": "Service_Request_List",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

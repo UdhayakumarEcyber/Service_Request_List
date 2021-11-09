@@ -1,0 +1,37 @@
+{
+    "id": "4c6c66fc-cc4c-43bd-ed19-92c23d83d20e",
+    "author": "",
+    "widgets": [
+        {
+            "id": "Service_Request_List",
+            "name": "Service_Request_List",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "Service_Request_ListLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "Service_Request_ListLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "Service_Request_ListLink",
+            "title": "Service_Request_List"
+        }
+    ]
+}
